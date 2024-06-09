@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import avatarimg from "./mages/user.png";
+
 const page = () => {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-      <Image src={avatarimg} alt="Example Image" width={40} height={40} />
+      
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
         aria-hidden="true"
