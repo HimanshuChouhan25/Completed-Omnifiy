@@ -1,13 +1,14 @@
 "use client";
 import { Field, Form, Formik, useFormik, resetForm } from "formik";
 import Link from "next/link";
-import React, { useReducer, useState } from "react";
+import React from "react";
+import  { useReducer, useState } from "react";
 import { useRef } from "react";
 import Modal from "react-modal";
 import { Button } from "@mantine/core";
 import Image from "next/image";
 import avatarimg from "./mages/user.png";
-const page = () => {
+const Page = () => {
   // objects of table
 
   // function for the select dropdonw position
@@ -2722,34 +2723,5 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
-{
-  /* Tabs Logic*/
-}
-{
-  /* <script>
-          document.getElementById('tab-name').addEventListener('click', function() {
-            document.getElementById('content-name').classList.remove('hidden');
-            document.getElementById('content-tags').classList.add('hidden');
-            this.querySelector('span').classList.add('bg-black');
-            this.querySelector('span').classList.remove('bg-white');
-            document.getElementById('tab-tags').querySelector('span').classList.remove('bg-black');
-            document.getElementById('tab-tags').querySelector('span').classList.add('bg-white');
-            this.classList.add('border-black');
-            document.getElementById('tab-tags').classList.remove('border-black');
-          });
-        
-          document.getElementById('tab-tags').addEventListener('click', function() {
-            document.getElementById('content-name').classList.add('hidden');
-            document.getElementById('content-tags').classList.remove('hidden');
-            this.querySelector('span').classList.add('bg-black');
-            this.querySelector('span').classList.remove('bg-white');
-            document.getElementById('tab-name').querySelector('span').classList.remove('bg-black');
-            document.getElementById('tab-name').querySelector('span').classList.add('bg-white');
-            this.classList.add('border-black');
-            document.getElementById('tab-name').classList.remove('border-black');
-          });
-        </script>
-  */
-}
